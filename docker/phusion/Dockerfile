@@ -23,15 +23,12 @@ RUN apt-get update -y && \
             libtool \
             python3 \
             autoconf \
-            certstrap \
             libssl-dev \
             zlib1g-dev \
             python3-pip \
             libxml2-dev \
             libxslt-dev \
             libyaml-dev \
-            libreadline8 \
-            concourse-fly \
             libsqlite3-dev \
             build-essential \
             libreadline-dev -y
