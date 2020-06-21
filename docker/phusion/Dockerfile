@@ -34,7 +34,7 @@ RUN apt-get update -y && \
             concourse-fly \
             libsqlite3-dev \
             build-essential \
-            libreadline-dev
+            libreadline-dev -y
 
 RUN pip3 install \
          httpie \
